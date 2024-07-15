@@ -2,6 +2,15 @@ package com.alura.ChallengeLiteratura;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import com.marcelobaranowski.LiterAluraMB.principal.Principal;
+import com.marcelobaranowski.LiterAluraMB.repository.AutorRepository;
+import com.marcelobaranowski.LiterAluraMB.repository.LibroRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ChallengeLiteraturaApplication {
